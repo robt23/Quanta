@@ -27,7 +27,43 @@ def main():
 
     # Prepare and merge data
     df = prepare_master_dataframe(
-        etfs=["SPY", "VOO", "IVV"],
+        # etfs=["SPY", "VOO", "IVV"],
+        etfs=[
+            
+            # consumer discretionary: 
+            "XLY", "IYC", "VCR", "XHB",
+            
+            # consumer staples:
+            "XLP", "IYK", "VDC",
+            
+            # energy:
+            "XLE", "IYE", "VDE", "XOP", "AMLP", "OIH",
+            
+            # financials:
+            "XLF", "IYF", "VFH", "KBE", "KRE",
+            
+            # healthcare:
+            "XLV", "IYH", "IBB", "XBI", "VHT",
+            
+            # industrials:
+            "XLI", "IYJ", "VIS",
+            
+            # materials:
+            "XLB", "IYM", "VAW", "GDX", "GDXJ",
+            
+            # information technology:
+            "XLK", "IYW", "VGT", "FDN", "IGV",
+            
+            # communication servies:
+            "IYZ", "VOX", "XLC",
+            
+            # utilities:
+            "XLU", "IDU", "VPU",
+            
+            # real estate:
+            "RWR", "XLRE", "VNQ"
+            
+            ],
         start_date=start_date,
         end_date=end_date,
         fred_map=fred_map
