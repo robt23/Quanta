@@ -1,0 +1,11 @@
+pandas
+yfinance
+pandas-datareader
+pandas-market-calendars
+holidays
+pandas-ta
+numpy
+statsmodels
+scikit-learn
+setuptools
+packaging

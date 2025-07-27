@@ -3,6 +3,13 @@ import yfinance as yf
 from pandas_datareader import data as pdr
 import pandas_market_calendars as mcal
 import holidays
+
+# New np changes NaN casing
+import numpy as np
+if not hasattr(np, "NaN"):
+    np.NaN = np.nan
+
+
 import pandas_ta as ta
 
 
