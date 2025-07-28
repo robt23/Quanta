@@ -9,3 +9,6 @@ statsmodels
 scikit-learn
 setuptools
 packaging
+more-itertools
+seaborn
+matplotlib
