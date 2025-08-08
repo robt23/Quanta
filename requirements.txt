@@ -6,9 +6,9 @@ holidays
 pandas-ta
 numpy
 statsmodels
-scikit-learn
 setuptools
 packaging
 more-itertools
 seaborn
 matplotlib
+scikit-learn
